@@ -1,0 +1,792 @@
+body{
+    width:100%
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+    
+}
+
+
+#main-div{
+    height: 500px;
+    width: 97%;
+    padding: 30px 70px; 
+    margin: 30px 30px 30px 20px ;
+    box-sizing: border-box;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#header{
+    display: flex;
+    background-color: white; 
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    
+}
+
+
+#Nuuk-div{
+    width: 250px;
+    height: 110px;
+    background-color: #e47312;
+    color: white;
+    font-family: Dosis, sans-serif;
+    font-size: 15px;
+    font-weight: 700px;
+    justify-content: center;
+    padding-right: 10px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-right: 450px;
+    cursor: pointer;
+
+
+}
+
+#logo-image{
+    width: 90px;
+    padding-top: 45px;
+    padding-left: 30px;
+
+}
+.headings-div{
+    font-family: Dosis, sans-serif;
+    font-size: 12px;
+    font-weight: 700px;
+    cursor: pointer;
+    padding: 0px 15px;
+    letter-spacing: 1px;
+
+}
+
+
+.headings-div:hover{
+    border-right: 1px solid #e47312 ;
+    color: #e47312;
+    text-decoration: double;
+
+}
+
+
+#quote-div{
+    width: 180px;
+    height: 50px;
+    background-color:rgb(228, 115, 18);
+    border-bottom: rgb(255, 255, 255);
+    line-height: inherit;
+    color: white;
+    font-family: Dosis, sans-serif;
+    font-size: 12px;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 35px;
+    font-weight: 200;
+}
+
+#slogen-first-line{
+    font-size: 50px ;
+    font-weight: 1300;
+    line-height: 60px;
+    font-family: 'Dosis', sans-serif;;
+    letter-spacing: 3px;
+    margin-top: 10ppx;
+    margin-bottom: 0px;
+}
+
+#solgen{
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    line-height:60px;
+}
+
+#para1{
+    font-size:20px;
+    opacity: 0.9;
+    line-height: 26px;
+    margin-top: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#button-quote{
+    width: 150px;
+    height: 50px;
+    background-color: #e47312;
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 13px;
+}
+
+#solgen-social-media{
+    width: 60px;
+    height: 200px;
+    background-color: rgb(1, 1, 37);
+    color: white;
+}
+.symble{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+#symble-style{
+    margin: 10px; 
+    height: 180px;
+}
+
+#side-box{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 15px;
+    text-align: center;
+    margin-left: 305px;
+    margin-top: 0px;
+    padding-top: 50px;
+    background-image: linear-gradient(#e47312 , rgb(212, 112, 108)) 
+    
+}
+
+.side{
+    width: 33.33%;
+    height: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+#map-cursor{
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+}
+
+#map-cursor:hover{
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    width: 110px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#second-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px; 
+    font-family: 'Dosis', sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+
+}
+
+#view-cursor{
+    cursor: pointer;
+    opacity: 0.8;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+#view-cursor:hover{
+    border-bottom: 2px solid #e47312;
+}
+
+#second-points{
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.second-part-points{
+    width: 25%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid white;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+}
+
+.second-part-para{
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.learn-more{
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.learn-more:hover{
+    border-bottom: 2px solid #e47312;
+    margin: bottom 2px;
+    width: 110px;
+}
+
+#image-property{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+}
+
+#image-photo{
+    width: 50%;
+    height: 100%;
+    width: 570px; height: 710; padding:30px 0px;
+    
+}
+
+#image-property-photo{
+    width:550px;
+    height: 400px;
+
+}
+
+#image-para{
+    width: 42vw;
+    height: 100px;
+    padding-left: 110px;
+    font-size: xx-large;
+    font-family: 'Dosis', sans-serif;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    
+}
+
+.image-para-property{
+    padding-left: 110px;
+    opacity: 0.6;
+    margin-top: 0px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 25px;
+    font-size:  17px;
+    padding-right: 100px;
+    
+}
+
+#image-button-property{
+    padding-left: 110px;
+    padding-top: 0px;
+    opacity: 0.6;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#meet-cursor-property{
+    width: 130px;
+    height: 20px;
+}
+
+#meet-cursor-peroperty:hover{
+    border-bottom: 2px solid #e47312;
+    margin-bottom: 2px;
+}
+
+#number-employes{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.number-section{
+    width: 25%;
+    height: 100%;
+    padding: 0px 30px;
+}
+
+.numbers{
+    color: #e47312;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.numbers-para{
+    opacity: 0.7;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+
+#our-work-heading{
+    width: 1200px;
+    height: 3250px;
+    background-color: rgb(247, 248, 252);
+
+    
+}
+
+#our-work{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(241, 237, 237);
+    margin-top: 40px;
+}
+
+#blog-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 100px 50px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+
+#view-cursor{
+    cursor: pointer;
+}
+
+#view-cursor:hover{
+    border-bottom: 2px solid #e47312;
+    margin-bottom: 2px;
+}
+
+#our-work-images{
+    display: flex;
+    flex-wrap:wrap;
+    height: 774px;
+    width: 100%;
+   
+    
+}
+
+.image-box{
+    height: 350px;
+    width: calc(33.33% - 2px - 20px);
+    box-sizing: border-box;
+    display: wrap;
+    margin: 10px 10px;
+}
+
+#thumbnail{
+    width: 100%;
+    height: 350px;
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif ;
+    font-size: 19px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-attachment: fixed;
+}
+
+#get-free-cursor{
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+#prefessionals-heading{
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Dosis', sans-serif ;
+   padding-left: 40px;
+   padding-right: 40px;
+   box-sizing: border-box;
+}
+
+#heading-prefessionals{
+    font-weight: 1200;
+   letter-spacing: 1px;
+   font-size: 35px;
+}
+
+#about-hover{
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+#author-card{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.author-name-card{
+    width: 23%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 10px 10px;
+    background-color: white;
+    font-family: 'Dosis', sans-serif ;
+}
+
+
+#author-photo{
+    width: 250px;
+    height: 350px;
+    padding: 0px 10px;
+    background-size: cover;
+
+
+}
+
+#author-name{
+   height: 100%;
+   width: 70%;
+}
+
+#social-media{
+    box-sizing: border-box;
+    width: 70px;
+    height: 130px;
+    margin-left: 40px;
+    background-color: #e47312;
+
+}
+.social-media-div{
+    box-sizing: border-box;
+    width: 100%;
+    height: 33.33%;
+    padding: 5px 10px;
+}
+
+#name-card{
+    width: 100%;
+    height: 110px;
+    display: flex;
+}
+
+#style-name{
+    width: 70%; 
+    height: 100% ;
+    border: 1px solid white;
+    margin: 0px 25px;
+    
+}
+
+#last-map{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: 200px 0px;
+    font-family: 'Dosis', sans-serif ;
+}
+
+#left-part{
+    width: 40%;
+    height: 100%;
+    padding-right: 70px;
+    padding-left: 10px;
+}
+
+#left-part-heading{
+    margin-top: 200px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#left-part-para{
+    width: 100%;
+    height:100px ;
+    font-size: 18px;
+    opacity: 0.6;
+    padding-top: 40px;
+}
+
+#button-cursor{
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.6;
+    height: 50px;
+    font-size: 15px;
+}
+
+#right-part{
+    display: flex;
+    height: 100%;
+    width: 60%;
+}
+
+#right-left-part{
+    
+    width: 50%;
+    height: 100%;
+}
+
+#right-right-part{
+    width: 50%;
+    height: 100%;
+}
+
+#left-top-part{
+    width: 80%;
+    height: 270px;
+   margin: 0px 25px 20px 25px;
+   background-color: #fff;
+}
+
+.pauss-button{
+    width: 36px;
+    height: 45px;
+    background-color: #e47312;
+    color: white;
+    font-size: 60px;
+    padding-left: 15px;
+    border: 1px solid #e47312;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+#left-bottom-part{
+    width: 80%;
+    height: 270px;
+   margin: 25px 25px 25px;
+   background-color: #fff;
+
+}
+
+#right-top-part{
+    width: 80%;
+    height: 270px;
+   margin: 90px 25px 20px 25px;
+   background-color: #fff;
+}
+
+#right-bottom-part{
+    width: 80%;
+    height: 270px;
+    margin: 25px 25px 25px;
+    background-color: #fff;
+}
+
+#left-top-heading{
+    width: 100%;
+    height: 70px;
+    background-color: #e47312;
+    margin-top: 30px;
+}
+
+.heading{
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+
+}
+
+#after-map-heading{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Dosis', sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#view-blog-section{
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+#view-blog-section:hover{
+    border-bottom: 2px solid #e47312;
+}
+
+#last-three-cards{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin: 0px 15px;
+}
+
+.last-card{
+    width: 33.33%;
+    box-sizing: border-box;
+    color: #2e1919;
+    font-family: 'Dosis', sans-serif ;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+}
+
+#brush-image{
+    width: 380px;
+    height: 250px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg)
+}
+
+#billding-image{
+    width: 380px;
+    height: 250px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg);
+}
+
+#hall-image{
+    width: 380px;
+    height: 250px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg);
+}
+
+.calender{
+    width: 70px;
+    height: 110px;
+    background-color:#e47312;
+    margin-right: 0px;
+    box-sizing: border-box;
+    margin-left:310px 
+    
+}
+
+.date{
+    background-image: linear-gradient(45deg, #ff6361, #e47312);
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family:'Dosis', sans-serif ;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 0px;
+    font-size: 28px;
+
+}
+
+.month{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#blog-image-card{
+    width: 100%;
+    height: 50%;
+
+}
+
+#logo-card{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #e47312;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600px;
+    letter-spacing: 2px;
+}
+
+#final-card{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(2, 2, 49);
+    box-sizing: border-box;
+    
+}
+
+#about-card{
+    width: 33.33%;
+    box-sizing: border-box;
+    height: 250px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+#nuuk-heading{
+    padding-left: 40px;
+    
+}
+
+#find-cursor{
+    cursor: pointer;
+    margin-left: 40px;
+    width: 110px;
+    height: 40px;
+    
+}
+#find-cursor:hover{
+    border-bottom: 2px solid white;
+    margin-bottom: 0px;
+
+}
+
+#nuuk-para{
+    font-size: 17px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#list-contact{
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+
+.icons-list{
+    width: 100%;
+    height: 25%;
+    box-sizing: border-box;
+}
+
+.icon-image{
+    display: flex;
+    width: 20%;
+    height: 100%;
+   
+}

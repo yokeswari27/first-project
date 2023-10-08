@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Project
+        </title>
+        <link href="./project.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="https://kit.fontawesome.com/4f82b0ec7b.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        <div id="main-div" >
+            
+               <div id="header">
+                <div id="Nuuk-div" ><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
+                    id="logo-image"/></div>      
+                <a class="headings-div"><b>HOME</b></a>
+                <a class="headings-div"><b>PROJECT</b></a>
+                <a class="headings-div"><b>ABOUT</b></a>
+                <a class="headings-div"><b>SERVICES</b></a>
+                <a class="headings-div"><b>BLOG</b></a>
+                <a class="headings-div"><b>PAGES</b> </a>
+                <div id="quote-div" ><a><b>GET FREE QUOTE </b></a></div>
+                </div>
+                <div style="display: flex; margin-bottom: 0px;">
+                <div id="solgen">
+                <h1 id="slogen-first-line">YOU DREAM. WE CREATE.</h1>
+                <p id="para1">We turn your ideas to reality, we don't stop until you're satisfied.</p>
+                <div id="button-quote">GET FREE QUOTE</div>
+                </div>
+                <div id="solgen-social-media">
+                    <div id="symble-style">
+                   <div class="symble" ><i class="fa-brands fa-facebook-f" ></i></div>
+                    <div class="symble"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="symble"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="symble"><i class="fa-brands fa-instagram"></i></div>
+                    </div> 
+                </div>
+                </div>
+                <br>
+                <div id="side-box">
+                    <div class="side">
+                        <i class="fa-sharp fa-regular fa-phone"></i>
+                        <p>PHONE NUMBER</p>
+                        <P style="opacity: 0.8;">1-800-506-266</P>
+                        <p style="opacity: 0.8;">1-100-777-800</p>
+                    </div>
+                    <div class="side">
+                        <i class="fa-sharp fa-regular fa-envelope" ></i>
+                        <p>CONTACT</p>
+                        <p style="opacity: 0.8;">contact@nuuk.com</p>
+                        <p style="opacity: 0.8;">info@nuuk.com</p>
+                    </div>
+                    <div class="side">
+                        <i class="fa-sharp fa-regular fa-clock" ></i>
+                        <p>OPENING TIMES</p>
+                        <p style="opacity: 0.8;">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+                        <p id="map-cursor">FIND ON MAP</p>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="second-part"><h1>OUR SPECIALIZATION</h1>
+                <p id="view-cursor">VIEW ALL SERVICES</p>
+                </div>
+                <br>
+                <br>
+                <div id="second-points">
+                    <div class="second-part-points"><img
+                        style="width: 60px; height: 60px;"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg"/>
+                        <h4>RENOVATION</h4>
+                        <P class="second-part-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</P>
+                        <p class="learn-more">LEARN MORE</p>
+                    </div>
+                    <div class="second-part-points">
+                        <img
+                        style="width: 60px; height: 60px;"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg"/>
+                        <h4>ARCHITECTURE</h4>
+                        <p class="second-part-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        <p class="learn-more">LEARN MORE</p>
+                    </div>
+                    <div class="second-part-points">
+                        <img
+                        style="width: 60px; height: 60px;"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg"/>
+                        <h4>CONSTRUCTION</h4>
+                        <p class="second-part-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        <p class="learn-more" >LEARN MORE</p>
+                    </div>
+                    <div class="second-part-points"s>
+                        <img
+                        style="width: 60px; height: 60px;"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg"/>
+                        <h4>FINANCIAL RESULT</h4>
+                        <p class="second-part-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        <p class="learn-more">LEARN MORE</p>
+                    </div>
+                </div>
+                
+                <div id="image-property">
+                    <div id="image-photo"> 
+                        <img
+                        id="image-property-photo"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg"/>
+                    </div>
+                    <div>
+                        <div id="image-para"><h3>WHO WE ARE</h3></div>
+                        <p class="image-para-property">Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform individual knowledge into increased creative potential.</p>
+                        <p class="image-para-property">Our studio is a architecture practice based in NY and Paris. Today, it includes 150 architects, urban planners, landscape and interior designers of 25 different nationalities. The company principle of Architecture-Studio is the collective conception. From the very beginning, the practice has believed in the virtues of exchange, crossing ideas, common effort, shred knowledge.</p>
+                       <div id="image-button-property"><p id="meet-cursor-property">MEET THE TEAM</p></div> 
+                    </div>
+                </div>
+                <div id="number-employes">
+                    <div class="number-section">
+                        <p class="numbers">170</p>
+                        <p class="numbers-para">Employer with over 10 years of experience</p>
+                    </div>
+                    <div class="number-section">
+                        <p class="numbers">10</p>
+                        <p class="numbers-para">Years experience in construction industries</p>
+                    </div>
+                    <div class="number-section">
+                        <p class="numbers">690</p>
+                        <p class="numbers-para">Residential premises complited in 2019</p>
+                    </div>
+                    <div class="number-section">
+                        <p class="numbers">7.1</p>
+                        <p class="numbers-para">Milion dollar value on investments</p>
+                    </div>
+                </div>
+                <br><br>
+               <div id="our-work-heading">
+                    <div id="our-work">
+                        <div id="blog-heading"><h1>OUR WORK</h1>
+                        <p id="view-cursor"> VIEW ALL WORKERS</p>
+                        </div>
+                    </div>
+                    <div id="our-work-images">
+                        <div class="image-box">
+                            <img 
+                            style="width: 100%; height: 100%;"
+                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg"/>
+                        </div>
+                        <div class="image-box">
+                            <img
+                            style="width: 100%; height: 100%;"
+                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg"/>
+
+                        </div>
+                        <div class="image-box">
+                            <img
+                            style="width: 100%; height: 100%;"
+                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg"/>
+
+                        </div>
+                        <div  class="image-box" >
+                            <img
+                            style="width: 100%; height: 100%;"
+                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg"/>
+
+                        </div>
+                        <div class="image-box">
+                            <img
+                            style="width: 100%; height: 100%;"
+                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg"/>
+
+                        </div>
+                        <div class="image-box">
+                            <img
+                            style="width: 100%; height: 100%;"
+                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg"/>
+
+                        </div>
+                    </div>
+                    <div id="thumbnail">
+                        <h1>LET'S MAKE SOMETHING GREAT TOGETHER</h1>
+                        <p style="opacity: 0.6; letter-spacing: 1px; font-size: medium;">Get in touch with us and send some basis info for a quike quote</p>
+                        <p id="get-free-cursor">GET FREE QUITE</p>
+                    </div>
+                    <div id="prefessionals-heading">
+                        <h1 id="heading-prefessionals">PROFESSIONALS</h1>
+                        <p  id="about-hover">ABOUT US</p>
+                    </div>
+                   <div id="author-card">
+                        <div class="author-name-card">
+                            <div id="author-photo"
+                            style="background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg);">
+                             </div>
+                        <div id="name-card">
+                        <div id="author-name">
+                            <div id="style-name">
+                            <h3>PHILIP BROWER</h3>
+                            <P>Managing director</P>
+                            </div>
+                        </div>
+                        <div id="social-media">
+                            <div style="width: 90%;
+                            height: 90%; padding: 5px;">
+                           <div class="social-media-div"><i class="fa-brands fa-facebook-f"></i></div>
+                           <div class="social-media-div"><i class="fa-brands fa-instagram"></i></div>
+                           <div class="social-media-div"><i class="fa-brands fa-linkedin-in"></i></div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                     <div class="author-name-card">
+                        <div id="author-photo"
+                        style="background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg);">
+                        </div>
+                        <div id="name-card">
+                         <div id="author-name">
+                         <div id="style-name">
+                         <h3>JOHN WICK</h3>
+                         <P>Managing director</P>
+                         </div>
+                        </div>
+                        <div id="social-media">
+                        <div style="width: 90%;
+                            height: 90%; padding: 5px;">
+                           <div class="social-media-div"><i class="fa-brands fa-facebook-f"></i></div>
+                           <div class="social-media-div"><i class="fa-brands fa-instagram"></i></div>
+                           <div class="social-media-div"><i class="fa-brands fa-linkedin-in"></i></div>
+                     </div>
+                    </div>
+                    </div>
+                    </div>
+                        <div class="author-name-card">
+                            <div id="author-photo"
+                             style="background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg); ;">
+                             </div>
+                            <div id="name-card">
+                             <div id="author-name">
+                            <div id="style-name">
+                            <h3>JIMMY MCGILL</h3>
+                            <P>Managing director</P>
+                            </div>
+                            </div>
+                            <div id="social-media">
+                             <div style="width: 90px;
+                             height: 90px; padding: 5px;">
+                             <div class="social-media-div"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="social-media-div"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="social-media-div"><i class="fa-brands fa-linkedin-in"></i></div>
+                        </div>
+                        </div>
+                     </div>
+                     </div>
+                              <div class="author-name-card">
+                             <div id="author-photo"
+                                style="background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg);">
+                                </div>
+                                <div id="name-card">
+                                <div id="author-name">
+                                <div id="style-name">
+                                <h3>SARA CONNOR</h3>
+                                 <P>Managing director</P>
+                                </div>
+                                </div>
+                                <div id="social-media">
+                                <div style="width: 90px;
+                                 height: 90px; padding: 5px;">
+                                <div class="social-media-div"><i class="fa-brands fa-facebook-f"></i></div>
+                                <div class="social-media-div"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="social-media-div"><i class="fa-brands fa-linkedin-in"></i></div>
+                
+                                </div>
+                               </div>
+                                </div>
+                                </div>
+                                </div>
+ <div id="last-map">
+    <div id="left-part">
+        <div id="left-part-heading"> <h1>TESTIMONIALS</h1></div>
+        <div id="left-part-para"> <p>Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent blandit laoreet nibh. Morbi mollis tellus ac sapien.</p></div>
+        <div id="button-cursor">OUR SERVICES</div>
+
+    </div>
+    <div id="right-part">
+        <div id="right-left-part">
+            <div id="left-top-part">
+                <div class="pauss-button">''</div>
+                <div class="heading">
+                    <h4 style="padding-top: 0px ; text-align: center;" >SARA WILLIAM</h4>
+                    <p style="text-align: center; opacity: 0.7;">CEO at Webflow</p>
+                </div>
+                
+                <div>
+                    <p style="opacity: 0.7; padding-left: 5px;">"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"</p>
+                </div>
+            </div>
+            <div id="left-bottom-part">
+                <div class="pauss-button">''</div>
+                <div class="heading" >
+                    <h4 style="padding-top: 0px ; text-align: center;">JOHN JUNIOR</h4>
+                    <p style="text-align: center; opacity: 0.7;">Menager at Complexx</p>
+                </div>
+                <div>
+                    <p style="opacity: 0.7; padding-left: 5px;">"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit amet orci eget eros faucibus tincidunt. Fusce a quam"</p>
+                </div>
+            </div>
+        </div>
+        <div id="right-right-part">
+            <div id="right-top-part">
+                <div class="pauss-button">''</div>
+                <div class="heading" >
+                    <h4 style="padding-top: 0px ; text-align: center;">RAVEN DURGAN</h4>
+                    <p style="text-align: center; opacity: 0.7;">Architect at Group</p>
+                </div>
+                <div>
+                    <p style="opacity: 0.7; padding-left: 5px;">"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl"</p>
+                </div>
+            </div>
+            <div id="right-bottom-part">
+                <div class="pauss-button">''</div>
+                <div class="heading" >
+                    <h4 style="padding-top: 0px ; text-align: center;">SAMI TYPO</h4>
+                    <p style="text-align: center; opacity: 0.7;">SEO at Balfin</p>
+                </div>
+                <div>
+                    <p style="opacity: 0.7; padding-left: 5px;">"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus hendrerit"</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="after-map-heading">
+    <h1>Latest news</h1>
+    <p id="view-blog-section">VIEW BLOG</p>
+</div>
+<div id="last-three-cards">
+    <div class="last-card" style="margin: 0px 10px 0px 0px;">
+        <div >
+            <div id="billding-image">
+                <div class="calender">
+                    <div class="date">17</div>
+                    <div class="month">OCT</div>
+                </div>
+            </div>
+            
+            <h3 style="padding-left: 30px;">BLOGPOST 1</h3>
+            <p style="padding-left: 30px;">Service and providing potential clients and customers with testimonials one of the best ways to market</p>
+            <p style="padding-left: 30px;">Read more</p>
+        </div>
+    </div>
+    <div class="last-card" style="margin: 0px 5px 0px 5px">
+        <div>
+            <div id="brush-image">
+                <div class="calender">
+                    <div class="date">11</div>
+                    <div class="month">DEC</div> 
+                </div>
+            </div>
+            <div id="blog-image-card">
+            <h3 style="padding-left: 30px;">BLOGPOST 2</h3>
+            <p style="padding-left: 30px;">Service and providing potential clients and customers with testimonials one of the best ways to market</p>
+            <p style="padding-left: 30px;">Read more</p>
+            </div>
+        </div>
+    </div>
+    <div class="last-card" style="margin: 0px 0px 0px 10px">
+        <div>
+            <div id="hall-image">
+                <div class="calender">
+                    <div class="date">27</div>
+                    <div class="month">OCT</div>
+                </div>
+            </div>
+            <h3 style="padding-left: 30px;">BLOGPOST 3</h3>
+            <p style="padding-left: 30px;">Service and providing potential clients and customers with testimonials one of the best ways to market</p>
+            <p style="padding-left: 30px;">Read more</p>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+<div id="logo-card">
+    <p>TRUSTED BY TOP COMPANIES</p>
+    <h3>LOGO 1</h3>
+    <h3>LOGO 2</h3>
+    <h3>LOGO 3</h3>
+    <h3>LOGO 4</h3>
+    <h3>LOGO 5</h3>
+</div>
+<div id="final-card">
+    <div id="about-card">
+      <div style="display: flex;"> <h4 id="nuuk-heading">ABOUT NUUK</h4>
+      <div></div> 
+   </div>
+       <p id="nuuk-para">Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform individual knowledge into increased creative potential.</p>
+      <div id="find-cursor"><p>FIND ON MAP</p></div> 
+    </div>
+    <div id="about-card">
+       
+        
+     </div>
+
+      </div>
+      <div id="about-card">
+        <div style="display: flex;"> <h4 id="nuuk-heading">CONTACT US</h4>
+        <div></div> 
+     </div>
+     <div id="list-contact">
+        <div class="icons-list">
+            <div class="icon-image">
+                <img
+                style="width: 20px; height: 20px; padding-top: 10px;"
+                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg"/>
+            
+            <div style="display: block;">
+                
+            </div>
+        </div>
+
+        </div>
+        
+
+     </div>
+         
+      </div>
+    
+    
+
+</div>
+        
+    </body>
+</html>
